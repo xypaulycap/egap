@@ -45,6 +45,26 @@
 
 }
 
+@media (max-width:799px) {
+  .slider_section .detail-box {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .slider_section .detail-box .btn-box {
+    justify-content: center;
+  }
+
+  .slider_section::before {
+    top: initial;
+    right: 0;
+    width: calc(100% - 45px);
+    height: 45%;
+    bottom: 45px;
+  }
+
+}
+
 @media (max-width: 767px) {
   .slider_section .detail-box {
     text-align: center;

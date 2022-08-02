@@ -1052,6 +1052,8 @@ footer .copyright{
 
 @media (max-width:799px) {
 
+  /*home page*/
+
   .section-p1 {
     padding: 40px 40px;
   }
@@ -1104,4 +1106,210 @@ footer .copyright{
   #lg-bag{
     display: none;
   }
+
+  #product1 .pro-container {
+  
+    justify-content: center;
+  }
+
+  #product1 .pro {
+    margin: 20px;
+  }
+
+  #sm-banner .banner-box {
+    min-width: 100%;
+    height: 30vh;
+  }
+
+  .container {
+    padding-right: 10px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+}
+
+  #newsletter .form {
+    width: 60%;
+  }
+
+  /*contact details*/
+
+  #form-details {
+    padding: 40px;  
+  }
+
+  #form-details form {
+    width: 50%;
+  }
+
+  #form-details .people {
+    margin-top: 200px;
+  }
+}
+
+@media (max-width: 477px) {
+  .section-p1 {
+    padding: 20px;
+}
+
+  #header {
+    padding: 3px 30px;
+}
+
+#hero {
+  padding: 0 20px;
+  background-position: 55%;
+}
+
+#feature {
+  justify-content: space-between;
+}
+
+#feature .fe-box {
+  width: 155px;
+  margin:0 0 15px 0;
+}
+
+#product1 .pro {
+  width: 100%;
+}
+
+#banner {
+  height: 30vh;
+}
+
+#banner {
+  height: 20vh;
+}
+
+#sm-banner .banner-box {
+  height: 40vh;
+}
+
+#sm-banner .banner-box2 {
+  margin-top: 20px;
+}
+
+#banner3 {
+  padding: 0 20px;
+}
+
+#banner3 .banner-box {
+  width: 100%;
+}
+
+#newsletter {
+padding: 40px 20px;
+}
+#newsletter .form {
+  width: 100%;
+}
+
+footer .copyright {
+  text-align: start;
+}
+
+/*single products*/
+#prodetails {
+  display: flex;
+  flex-direction: column;
+}
+
+#prodetails .single-pro-image {
+  width: 100%;
+  margin-right: 0px;
+}
+#prodetails .single-pro-details {
+  width: 100%;
+
+}
+
+/*blog page*/
+#blog {
+  padding: 100px 20px 0 20px;
+}
+
+#blog .blog-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#blog .blog-img {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+#blog .blog-details {
+  width: 100%;
+}
+
+/*about page*/
+  #about-head {
+    flex-direction: column;
+}
+
+#about-head img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#about-head div {
+  padding-left: 0px;
+}
+
+#about-app .video {
+  width: 100%;
+}
+
+/*contact page*/
+#contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-details .details {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#contact-details .map {
+  width: 100%;
+}
+
+#form-details {
+  margin: 10px;
+  padding: 30px 10px;
+  flex-wrap:wrap;
+}
+
+#form-details form {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#form-details .people {
+  margin-top: 20px;
+}
+
+/*cart page*/
+
+#cart-add {
+  flex-direction: column;
+}
+
+#coupon {
+  width: 100%;
+}
+
+#sub-total {
+  width: 100%;
+  padding: 20px;
+}
+
+.container {
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: px;
+}
 }
